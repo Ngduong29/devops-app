@@ -25,18 +25,6 @@ pipeline {
                 sh 'mvn clean install'
             }
         }
-
-        stage('Check Unit Test'){
-            steps{
-
-            }
-        }
-
-        stage('SonarQue'){
-            steps{
-                
-            }
-        }
         
         stage('Deploy') {
             steps {
